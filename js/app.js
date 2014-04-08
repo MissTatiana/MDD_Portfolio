@@ -9,6 +9,13 @@ myApp.config(['$routeProvider', function($routeProvider) {
 		templateUrl: 'partials/sites.html',
 		controller: 'ListController'
 	}).
+	when('/graphics', {
+		templateUrl: 'partials/graphics.html',
+		controller: 'GraphicsController'
+	}).
+	when('/about', {
+		templateUrl: 'partials/about.html'
+	}).
 	when('/details/:itemId', {
 		templateUrl: 'partials/details.html',
 		controller: 'DetailsController'

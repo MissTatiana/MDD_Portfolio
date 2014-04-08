@@ -1,9 +1,16 @@
 var galleryControllers = angular.module('galleryControllers', []);
 
 galleryControllers.controller('ListController', ['$scope', '$http', function($scope, $http) {
+	//Get websites
 	$http.get('js/data.json').success(function(data) {
 		$scope.websites = data;
 	});
+}]);
+
+galleryControllers.controller('GraphicsController', ['$scope', '$http', function($scope, $http) {
+	$http.get('js/graphics.json').success(function(datag) {
+		$scope.graphics = datag;
+	})
 }]);
 
 galleryControllers.controller('DetailsController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
