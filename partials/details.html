@@ -1,0 +1,22 @@
+<section class="siteInfo">
+	<div class="container" ng-model="webistes">
+		
+		<a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+		<a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+
+		<br />
+		<br />
+
+		<h3>{{websites[whichItem].name}}</h3>
+
+		<div class="image">
+			<img src="img/gallery/sites/{{websites[whichItem].file}}.png">
+		</div>
+
+		<div class="info">
+			<p>{{websites[whichItem].details}}</p>
+			<br />
+			<p>{{websites[whichItem].made}}</p>
+		</div>
+	</div>
+</section>

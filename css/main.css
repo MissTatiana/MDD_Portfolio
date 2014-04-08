@@ -148,6 +148,54 @@ a {
 
 
 /*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			DETAILS
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #FCF4DC;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+}
+
+.btn:hover {
+	color: #7a7294;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.siteInfo {
+	text-align: left;
+}
+
+.img {
+	width: 370px;
+}
+
+.info {
+	width: 350px;
+	float: right;
+	position: absolute;
+	top: 31%;
+	right: 28%;
+}
+
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
 			FOOTER
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 

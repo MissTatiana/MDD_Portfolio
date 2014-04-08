@@ -5,8 +5,10 @@
 	<div class="gallItem" ng-repeat="item in websites">
 		<h4>{{item.name}}</h4>
 
-		<img class="gallImg" ng-src="img/gallery/sites/{{item.file}}.png">
-		<br />
+		<a href="#/details/{{websites.indexOf(item)}}">
+			<img class="gallImg" ng-src="img/gallery/sites/{{item.file}}.png">
+			<br />
+		</a>
 		<span>{{item.desc}}</span>
 	</div>
 
