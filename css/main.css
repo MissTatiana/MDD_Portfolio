@@ -1,0 +1,174 @@
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			BODY
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+body {
+	text-align: center;
+	font-size: 62.5%;
+	background: url(../img/rockywall.png)
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			FONTS
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 3.000em;
+}
+
+h3 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 2.500em;
+	margin: 0 0 10px 0;
+}
+
+h4 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 2.000em;
+}
+
+p, span {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 1.600em;
+}
+
+a {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 1.600em;
+}
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			NAVIGATION
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+#logo {
+	padding: 10px 0 0 0;
+}
+
+#navigation {
+	height: 150px;
+	background: url(../img/grunge.png) no-repeat;
+	text-align: center;
+}
+
+.nav ul {
+
+}
+
+.nav li {
+	display: inline;
+	margin: 0 20px 0 20px;
+}
+
+.nav a {
+	text-decoration: none;
+	font-size: 1.800em;
+	color: #000;
+}
+
+.nav a:hover {
+	color: #5f098f;
+	border-bottom: 1px solid #5f098f;
+}
+
+.active {
+	color: #7a7294;
+	border-bottom: 1px solid #7a7294;
+}
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			GALLERY
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+.gallery {
+	margin: 10px 0 50px 2%;
+}
+
+.gallery h3 {
+	text-align: left;
+}
+
+.gallItem {
+	width: 450px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.3);
+	float: left;
+
+	margin: 5px 5% 10px 0;
+
+	-webkit-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+	-o-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+	box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+}
+
+.gallItem h4 {
+	padding: 5px 0 3px 10px;
+}
+
+.gallImg {
+	padding: 2px 0 3px 0;
+}
+
+.gallItem span {
+	width: 350px;
+}
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			ABOUT
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+.aboutItem {
+	width: 90%;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.3);
+
+	margin: 5px 5% 10px 0;
+
+	-webkit-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+	-o-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+	box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+}
+
+.aboutItem h3 {
+	padding: 8px 0 0 10px;
+}
+
+.aboutText {
+	padding: 2px 10px 0 10px;
+	text-align: left
+}
+
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			FOOTER
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+#footer {
+	clear: left;
+	height: 100px;
+	padding: 40px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

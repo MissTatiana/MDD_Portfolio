@@ -1,0 +1,38 @@
+[
+	{
+		"name" : "Art of Dying",
+		"file" : "artof",
+		"desc" : "Blog like collection of stories",
+		"details" : "Croissant soufflé tootsie roll. Donut wafer chocolate cake marzipan tiramisu apple pie macaroon macaroon. Unerdwear.com chupa chups toffee unerdwear.com muffin cupcake jelly. Pastry cheesecake chocolate cake halvah danish pie chupa chups."
+	},
+	{
+		"name" : "Bonfires",
+		"file" : "bonfires",
+		"desc" : "Client work for Bonfires in Ovideo",
+		"details" : "Croissant soufflé tootsie roll. Donut wafer chocolate cake marzipan tiramisu apple pie macaroon macaroon. Unerdwear.com chupa chups toffee unerdwear.com muffin cupcake jelly. Pastry cheesecake chocolate cake halvah danish pie chupa chups."
+	},
+	{
+		"name" : "Costais",
+		"file" : "costais",
+		"desc" : "Expense Mananger made with CodeIgniter",
+		"details" : "Croissant soufflé tootsie roll. Donut wafer chocolate cake marzipan tiramisu apple pie macaroon macaroon. Unerdwear.com chupa chups toffee unerdwear.com muffin cupcake jelly. Pastry cheesecake chocolate cake halvah danish pie chupa chups."
+	},
+	{
+		"name" : "Flipbook",
+		"file" : "flipbook",
+		"desc" : "Elementary based application for simple animatons",
+		"details" : "Croissant soufflé tootsie roll. Donut wafer chocolate cake marzipan tiramisu apple pie macaroon macaroon. Unerdwear.com chupa chups toffee unerdwear.com muffin cupcake jelly. Pastry cheesecake chocolate cake halvah danish pie chupa chups."
+	},
+	{
+		"name" : "Happy Little Octopus",
+		"file" : "octopus",
+		"desc" : "Personal graphic project integrated into the web",
+		"details" : "Croissant soufflé tootsie roll. Donut wafer chocolate cake marzipan tiramisu apple pie macaroon macaroon. Unerdwear.com chupa chups toffee unerdwear.com muffin cupcake jelly. Pastry cheesecake chocolate cake halvah danish pie chupa chups."
+	},
+	{
+		"name" : "Task Manager",
+		"file" : "scheme",
+		"desc" : "Steampunk task manager",
+		"details" : "Croissant soufflé tootsie roll. Donut wafer chocolate cake marzipan tiramisu apple pie macaroon macaroon. Unerdwear.com chupa chups toffee unerdwear.com muffin cupcake jelly. Pastry cheesecake chocolate cake halvah danish pie chupa chups."
+	}
+]
