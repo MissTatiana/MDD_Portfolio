@@ -1,0 +1,17 @@
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
+			MEDIA QUERIES
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+@media only screen and (max-device-width: 480px) {
+	
+	#wrap {
+		width: 480px;
+	}
+
+
+	.gallItem {
+		float: none;
+	}
+
+
+}/*480px*/
