@@ -133,7 +133,7 @@ a {
 
 .aboutItem {
 	width: 95.75%; /*912/960*/
-	height: 400px;
+	padding-bottom: 40px;
 	background-color: rgba(255, 255, 255, 0.3);
 
 	margin: 5px 5% 10px 0;
@@ -182,7 +182,7 @@ a {
 
 .btn-left {
 	float: left;
-	margin: 0 850px 0 0;
+	margin: 0 88.5416667% 0 0; /*850/960*/
 }
 
 /*.btn-right {
@@ -222,6 +222,13 @@ a {
 	padding: 40px 0 0 0;
 }
 
+
+
+
+
+
+
+
 /*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
 			MEDIA QUERIES
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
@@ -246,13 +253,13 @@ a {
 	}
 
 	h4 {
-		font-size: 1.700em;
+		font-size: 2.000em;
 	}
 
-	/*NAVIGATION
+	/*	NAVIGATION
 	*********************************************/
 	#logo {
-		width: 150%;
+		width: 100%;
 	}
 
 	#navigation {
@@ -267,36 +274,41 @@ a {
 		font-size: 2.000em;
 	}
 
-	/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
-				GALLERY
-	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+	/*	GALLERY
+	*********************************************/
 
 	.gallery {
-		margin: 10px 0 50px 2%;
-	}
-
-	.gallery h3 {
-		text-align: left;
+		margin: 10px 0 50px 0;
 	}
 
 	.gallItem {
 		width: 46.875%;/*450/960*/
 		height: 300px;
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: none;
 
 		margin: 5px 02.6041667% 10px 0; /*25/960*/
 		display: inline;
 		float: none;
 
-		-webkit-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
-		-moz-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
-		-o-box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
-		box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-o-box-shadow: none;
+		box-shadow: none;
 	}
 
 
 	.gallItem h4 {
-		padding: 5px 0 3px 02.2222222%; /*10/450*/
+		padding: 5px 0 3px 5px; 
+		position: relative;
+		text-align: left;
+		z-index: 10;
+		width: 350px;
+
+		top: 35px;
+		left: 50px;
+
+		color: rgba(255, 255, 255, 0.7);
+		background-color: rgba(0, 0, 0, 0.6);
 	}
 
 	.gallImg {
@@ -305,15 +317,16 @@ a {
 
 	.gallItem span {
 		width: 77.7777778px; /*350/450*/
+		background-color: rgba(255, 255, 255, 0.6);
+		padding: 5px 10px 5px 10px;
 	}
 
-	/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
-				ABOUT
-	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+	/*	ABOUT
+	*********************************************/
 
 	.aboutItem {
 		width: 95.75%; /*912/960*/
-		height: 400px;
+		padding-bottom: 40px;
 		background-color: rgba(255, 255, 255, 0.3);
 
 		margin: 5px 5% 10px 0;
@@ -324,84 +337,34 @@ a {
 		box-shadow: 0 3px 5px 0 rgba(50, 50, 50, 0.55);
 	}
 
-	.aboutItem h3 {
-		padding: 8px 0 0 01.0964912%; /*10/912*/ 
-	}
-
-	.aboutText {
-		padding: 2px 01.0964912% 0 01.0964912%;
-		text-align: left
-	}
-
-
-	/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
-				DETAILS
-	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
-
-	.btn {
-	    display: inline-block;
-	    padding: 6px 12px;
-	    margin-bottom: 0;
-	    font-size: 1rem;
-	    line-height: 140%;
-	    text-align: center;
-	    text-decoration: none;
-	    white-space: nowrap;
-	    vertical-align: middle;
-	    cursor: pointer;
-	    border: 1px solid transparent;
-	    border-radius: 4px;
-	    background: rgba(0, 0, 0, 0.2);
-	    color: #FCF4DC;
-	    -webkit-user-select: none;
-	       -moz-user-select: none;
-	        -ms-user-select: none;
-	         -o-user-select: none;
-	            user-select: none;
-	}
+	/*	DETAILS
+	*********************************************/
 
 	.btn-left {
-		float: left;
-		margin: 0 850px 0 0;
-	}
-
-	/*.btn-right {
-		margin: 0 0 0 900px;
-	}*/
-
-	.btn:hover {
-		color: #7a7294;
-		background: rgba(0, 0, 0, 0.8);
+		margin: 0 83% 0 0;
 	}
 
 	.siteInfo {
-		text-align: left;
+		text-align: center;
+	}
+
+	.siteInfo h3 {
+		text-align: center;
 	}
 
 	.image {
-		width: 370px;
+		width: 100%;
 		margin: 0 10px 0 0;
 	}
 
 	.info {
 		width: 350px;
-		float: right;
-		position: absolute;
-		top: 300px;
-		right: 28%;
+		float: none;
+		position: relative;
+		top: 10px;
+		right: -12%;
+		text-align: center;
 	}
-
-
-	/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	
-				FOOTER
-	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
-
-	#footer {
-		clear: left;
-		height: 100px;
-		padding: 40px 0 0 0;
-	}
-
 
 }/*480px*/
 
