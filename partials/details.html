@@ -8,18 +8,23 @@
 		<br />
 		<br />
 
-		<h3>{{websites[whichItem].name}}</h3>
+		<h3 id="whichItem">{{websites[whichItem].name}}</h3>
 
-		<div class="image">
-			<img src="img/gallery/sites/{{websites[whichItem].file}}.png">
-		</div>
+		<div class="dets">
+			<div class="image">
+				<img src="img/gallery/sites/{{websites[whichItem].file}}.png">
+			</div>
 
-		<a href="index.html">&laquo; Back to gallery</a>
-
-		<div class="info">
-			<p>{{websites[whichItem].details}}</p>
-			<br />
-			<p>{{websites[whichItem].made}}</p>
-		</div>
-	</div>
+			<div class="info">
+				<p>{{websites[whichItem].details}}</p>
+				<br />
+				<p>{{websites[whichItem].made}}</p>
+			</div><!-- info -->
+		</div><!-- dets -->
+	</div><!-- container -->
+	<br />
+	<br />
+	<br />
+	<br />
+	<!-- being lazy ^^^ -->
 </section>
